@@ -1,0 +1,124 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+body{
+	z-index: 1;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	background-image: url('http://i.imgur.com/n9NEke5.png');
+}
+#container2{
+	z-index: 100;
+	height: 100vh;
+	position: abolute;
+}
+#container{
+	z-index: 99;
+	height: 100vh;
+	background-image: url('http://i.imgur.com/W33SO05.jpg');
+	position: abolute;
+}
+#container3{
+	height: 100vh;
+}
+#page{
+	height: 100vh;
+	opacity: 0.9;
+	height: 18em;
+	padding: 3em;
+	border:  2px solid white;
+	border-radius: 25px;
+	background-color: #aeaeae; 
+	float: right;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    position: absolute;
+}
+.title{
+	opacity: 1;
+    font-size: 3.000em;
+	margin-bottom: 5px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+	color: white;
+}
+.titlesub{
+	opacity: 1;
+	margin: 20px;
+	margin-bottom: 70px;
+}
+.joinbutton{
+	opacity: 1;
+	background: #d8d8d8;
+	color: black;
+	border-radius: 25px;
+	width: 250px;
+	padding: 10px;
+	margin: auto;
+	cursor: pointer;
+	font-size: 30px;
+	text-decoration: none;
+}
+.joinbutton:hover{
+	background: white;
+	color: #696969;
+}
+.joinbuton:visited{
+	color: black;
+}
+.forumsbutton{
+	background: #808080;
+	border-radius: 25px;
+	width: 250px;
+	padding: 10px;
+	margin: auto;
+	cursor: pointer;
+	font-size: 30px;
+	color: black;
+}
+.forumsbutton:hover{
+	background: white;
+	color: #696969;
+}
+.forumsbutton:visited{
+	color: black;
+}
+#page2{	
+	border-color: #fd8505;
+	margin-bottom:2em;
+	height: 90vh;
+	right: 50%;
+    bottom: 60%;
+    transform: translate(50%,160vh);
+    position: absolute;
+	clear:both;
+	border:  2px solid white;
+	border-radius: 25px;
+	background-color: #aeaeae; 
+}
+#page3{
+		border-color: #fd8505;
+	height: -10vh;
+	text-align: center;
+	word-wrap: break-word;
+	right: 50%;
+    bottom: 50%;
+    transform: translate(50%,140vh);
+    position: absolute;
+	clear:both;
+}
+#IP{
+	color: #fd8505;
+	font-size: 6em;
+	border: 10px;
+}
+.line{
+	border: 1px black
+	height: 2px;
+	color: white;
+}
