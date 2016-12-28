@@ -28,9 +28,9 @@ body{
 	opacity: 0.9;
 	height: 18em;
 	padding: 3em;
-	border:  2px solid white;
+	border:  5px solid #F3EFE0;
 	border-radius: 25px;
-	background-color: #aeaeae; 
+	background-color: #3399FF; 
 	float: right;
     right: 50%;
     bottom: 50%;
@@ -45,16 +45,18 @@ body{
     font-weight: normal;
     letter-spacing: 4px;
     text-transform: uppercase;
-	color: white;
+	color: #F3EFE0;
 }
 .titlesub{
+	color: #F3EFE0;
 	opacity: 1;
+	font-size: 20px;
 	margin: 20px;
 	margin-bottom: 70px;
 }
 .joinbutton{
 	opacity: 1;
-	background: #d8d8d8;
+	background: #98F5FF;
 	color: black;
 	border-radius: 25px;
 	width: 250px;
@@ -65,14 +67,14 @@ body{
 	text-decoration: none;
 }
 .joinbutton:hover{
-	background: white;
+	background: #F3EFE0;
 	color: #696969;
 }
 .joinbuton:visited{
 	color: black;
 }
 .forumsbutton{
-	background: #808080;
+	background: #98F5FF;
 	border-radius: 25px;
 	width: 250px;
 	padding: 10px;
@@ -82,7 +84,7 @@ body{
 	color: black;
 }
 .forumsbutton:hover{
-	background: white;
+	background: #F3EFE0;
 	color: #696969;
 }
 .forumsbutton:visited{
@@ -97,9 +99,9 @@ body{
     transform: translate(50%,160vh);
     position: absolute;
 	clear:both;
-	border:  2px solid white;
+	border:  2px solid #F3EFE0;
 	border-radius: 25px;
-	background-color: #aeaeae; 
+	background-color: #3399FF;
 }
 #page3{
 		border-color: #fd8505;
@@ -113,12 +115,12 @@ body{
 	clear:both;
 }
 #IP{
-	color: #fd8505;
-	font-size: 6em;
+	color: #F3EFE0;
+	font-size: 6.5em;
 	border: 10px;
 }
 .line{
 	border: 1px black
 	height: 2px;
-	color: white;
+	color: #F3EFE0;
 }
